@@ -48,6 +48,23 @@
 
     \tableofcontents
 
+    \section{配置}
+
+    stty 命令行设定
+    \begin{table}[htbp]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+            \hline
+            intr & quit & eof & eol & swtch & start & stop & susp & discard \\
+            \hline
+            中断 & 退出 & 文件尾 & 行尾 & 切换shell & 重启输出 & 停止输出 & 挂起 & 丢弃输出 \\
+            \hline
+            \^{}C & \^{}\textbackslash & \^{}D & <undef> & <undef> & \^{}Q & \^{}S & \^{}Z & \^{}O \\
+            \hline
+        \end{tabular}
+        \caption{热键}
+    \end{table}
+
     \section{帮助}
 
     type 命令类型
