@@ -101,12 +101,12 @@
     \subsection{SSH}
 
     \begin{description}
-        \item[\texttt{~/.ssh/}] There is no general requirement to keep the entire contents of this directory secret, but the recommended permissions are read/write/execute for the user, and not accessible by others. (700)
-        \item[\texttt{~/.ssh/authorized\_keys}] This file is not highly sensitive, but the recommended permissions are read/write for the user, and not accessible by others. It must not be able to be modified or replaced by unauthorized users. (600)
-        \item[\texttt{~/.ssh/config}] This file must have strict permissions: read/write for the user, and not writable by others. It may be group-writable provided that the group in question contains only the user. (644)
-        \item[\texttt{~/.ssh/id\_rsa}] This file contains sensitive data and should be readable by the user but not accessible by others (read/write/execute). (600)
-        \item[\texttt{~/.ssh/id\_rsa.pub}] This file is not sensitive and can (but need not) be readable by anyone. (644)
-        \item[\texttt{~/.ssh/known\_hosts}] This file should be writable only by root/the owner and can, but need not be, world-readable. (644)
+        \item[\texttt{\~{}/.ssh/}] There is no general requirement to keep the entire contents of this directory secret, but the recommended permissions are read/write/execute for the user, and not accessible by others. (700)
+        \item[\texttt{\~{}/.ssh/authorized\_keys}] This file is not highly sensitive, but the recommended permissions are read/write for the user, and not accessible by others. It must not be able to be modified or replaced by unauthorized users. (600)
+        \item[\texttt{\~{}/.ssh/config}] This file must have strict permissions: read/write for the user, and not writable by others. It may be group-writable provided that the group in question contains only the user. (644)
+        \item[\texttt{\~{}/.ssh/id\_rsa}] This file contains sensitive data and should be readable by the user but not accessible by others (read/write/execute). (600)
+        \item[\texttt{\~{}/.ssh/id\_rsa.pub}] This file is not sensitive and can (but need not) be readable by anyone. (644)
+        \item[\texttt{\~{}/.ssh/known\_hosts}] This file should be writable only by root/the owner and can, but need not be, world-readable. (644)
     \end{description}
 
 \end{document}
